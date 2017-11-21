@@ -1,0 +1,109 @@
+html {
+	overflow: -moz-scrollbars-vertical;
+	margin: 0;
+	padding: 0;
+}
+body {
+	
+	background:url(../images/back.jpg) repeat left top;
+}
+.main-container {
+	background:#FFF; margin:0 auto 20px auto; width:90%;
+ 	-webkit-box-shadow: 0px 0px 5px #ccc;
+ 	-moz-box-shadow: 0px 0px 5px #ccc; 
+ 	box-shadow: 0px 0px 5px #ccc;
+
+ }
+ /*featured items and coming soon styling*/
+ .box-heading-1 {
+	background:url(../images/hr.png) repeat-x left 10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24px;
+	line-height:28px;
+	padding: 2px 0px 0px 0px;
+	color:#392420;
+	text-align:center;
+	width: 100%;
+	overflow: auto;	
+}
+.box-heading-1 span {background:#fff; padding:0 15px;}
+
+
+
+/*footer styling*/
+ #footerWrapper {background-color:  #f9f9f9;}
+ 
+#footer {
+	clear: both;
+	overflow: auto;
+	min-height: 100px;
+	padding: 30px 0px;
+	width:90%;
+	margin:0 auto;
+	background:url(../images/hr.png) repeat-x left -5px;
+}
+#footer h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #392420;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	font-weight:normal;
+}
+#footer .column {
+	float: left;
+	width: 19%;
+	min-height: 100px;
+	padding:0 20px;
+	CURSOR: pointer;
+}
+#footer .column + .column {margin-left:12px;}
+#footer .column ul {
+	margin: 0px;
+	padding:0px;
+}
+#footer .column ul li:first-child {border-top:0px;}
+#footer .column ul li {
+	
+	border-top: dotted 1px #e0e0e0;
+	list-style:none;
+	padding:8px 0px 8px 12px;
+}
+
+#footer .column ul li:hover {background:url(../image/arrows-2.png) no-repeat left -7px;}
+
+#footer .column a {
+	text-decoration: none;
+	color: #888;
+	display:block;
+}
+#footer .column a:hover {
+	color:#392420;
+}
+
+.powered-main {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.powered-main:after { clear:both; display:block; content:""; }
+#powered {
+    border-top:1px dotted #E0E0E0;
+    color: #888;
+    font-size: 11px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: left;
+    width: 940px;
+	clear: both;
+}
+#powered .fr {float: right;}
+#powered a:hover {color:#888;}
+
+.inn-powered {margin:0 auto; width:980px; color:#808080;}
+
+.inn-powered a {color:#f6f6f6; text-decoration:none;}
+
+
+
+/*social media icons*/
